@@ -1,30 +1,37 @@
 # AI Chat Assistant
 
-Ask anything, brainstorm ideas, explain concepts, or work through a problem with your AI workspace.
+A conversational AI workspace for developers and everyday tasks.
+
+## Architecture
+- **Frontend:** React + Vite
+- **Backend:** Node.js + Express
+- **Database:** MongoDB Atlas + Mongoose (optional but supported)
+- **AI:** OpenAI-compatible server-side integration
+- **Deployment:** Vercel
 
 ## Features
-- Conversation history
-- Prompt library
-- Model controls
-- Response workspace
+- Responsive premium AI workspace
+- Server-side AI requests through `/api/ai`
+- MongoDB persistence when `MONGODB_URI` is configured
+- Environment-based secrets
+- Production Vite build
+- Vercel configuration
 
-## Tech Stack
-- React 18
-- Vite 5
-- Responsive CSS
-- Vercel-ready configuration
-
-## Local development
+## Local setup
+```bash
 npm install
 npm run dev
+```
 
-## Production build
-npm run build
-npm run preview
+For the AI API in local development, deploy the `api` directory through Vercel or run it with a Node adapter. The frontend is intentionally separated from provider credentials.
 
-## AI provider integration
-The client contains no provider secrets. Connect OpenAI, Groq, Ollama, or another provider through a server-side/API layer and environment variables.
+## Environment variables
+Copy `.env.example` and configure:
+- `OPENAI_API_KEY`
+- `OPENAI_MODEL` (optional)
+- `MONGODB_URI` (optional)
+
+**Never commit API keys.**
 
 ## Vercel
-Build command: npm run build
-Output directory: dist
+Import this repository into Vercel, keep the default Vite build settings or use the included `vercel.json`, and add environment variables in the Vercel dashboard.
