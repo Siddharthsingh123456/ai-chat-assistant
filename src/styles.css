@@ -53,3 +53,15 @@ body:after{background:radial-gradient(circle,#bda6ff12 1px,transparent 1px);back
 .nav nav{display:flex!important;gap:5px!important;padding:3px!important;border:0!important;border-radius:999px!important;background:#171021!important;box-shadow:inset 0 0 0 1px #a27aff30!important}
 .nav nav button{padding:8px 14px!important;border:0!important;border-radius:999px!important;background:transparent!important;font-family:"Syne"!important;font-size:9px!important}
 .nav nav button:hover{background:linear-gradient(135deg,#a27aff2a,#ff6bcf20)!important;color:#fff!important;transform:translateY(-1px)!important}
+
+
+/* POST-LOGIN V4 — CHAT LOUNGE */
+.workspace{min-height:calc(100vh - 70px);padding:34px clamp(14px,5vw,70px) 80px;background:radial-gradient(circle at 50% 10%,#a27aff18,transparent 34%),#090710}
+.workspaceHead{max-width:1250px!important;padding:18px 22px!important;border:1px solid #a27aff38!important;border-radius:24px!important;background:#120d1be8!important;box-shadow:0 22px 65px #6d42ff20!important}
+.workspaceHead h1{font-family:"Syne"!important;font-size:42px!important}.workspaceHead p{color:#bba9d8!important}
+.workGrid{max-width:1250px!important;grid-template-columns:330px minmax(0,1fr)!important;gap:16px!important}
+.tool,.result{border:1px solid #a27aff38!important;border-radius:24px!important;background:linear-gradient(145deg,#171022ee,#0d0914f2)!important;box-shadow:0 24px 70px #0008!important}
+.tool{padding:24px!important}.tool h2{font-family:"Syne"!important;font-size:24px!important}
+.fields textarea{min-height:410px!important;border:1px solid #a27aff30!important;border-radius:20px!important;background:#090711!important}
+.result{border-radius:28px 28px 10px 28px!important}.result pre{font-family:"Nunito Sans"!important;color:#eee6ff!important;font-size:13px!important;line-height:1.9!important}
+.primary{background:linear-gradient(135deg,#c5adff,#9a72ff,#ff6bcf)!important;border-radius:999px!important}
