@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap');
-500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;font-family:Inter,system-ui,sans-serif;line-height:1.55;overflow-x:hidden;background:#06070c;color:#f4f7ff}
 body:before{content:"";position:fixed;inset:-20%;z-index:-5;pointer-events:none;background:radial-gradient(circle at 16% 18%,#8d6cff30,transparent 24%),radial-gradient(circle at 84% 18%,#ff55d32b,transparent 25%),radial-gradient(circle at 50% 88%,#4b9dff22,transparent 27%);filter:blur(25px);animation:drift 18s ease-in-out infinite alternate}
