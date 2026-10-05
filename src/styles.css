@@ -113,3 +113,19 @@ h1{background:linear-gradient(120deg,#fff 15%,color-mix(in srgb,var(--ai-accent)
 @keyframes particles{from{transform:translate3d(0,0,0)}to{transform:translate3d(35px,-70px,0)}}
 @media(max-width:700px){.nav{top:6px;margin:6px 10px;border-radius:15px}.ai-grid{background-size:48px 48px}.orb{filter:blur(70px);opacity:.16}.tool,.result{border-radius:18px!important}.themeToggle{width:36px;height:36px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.scrollReveal{opacity:1;transform:none}}
+
+
+
+/* SIGNATURE THEME — CONVERSATIONAL INTELLIGENCE / ROYAL BLUE + CYAN */
+:root{--brand:#5b7cff;--brand2:#22d3ee;--hot:#8b5cf6;--deep:#05091a;--panel:rgba(12,20,48,.78);--edge:rgba(91,124,255,.2)}
+body{background:radial-gradient(circle at 15% 10%,#5b7cff1f,transparent 28%),radial-gradient(circle at 85% 20%,#22d3ee14,transparent 25%),linear-gradient(135deg,#040717,#08112b 55%,#080719)!important}
+body:before{background:radial-gradient(circle at 20% 20%,#5b7cff2a,transparent 25%),radial-gradient(circle at 80% 30%,#22d3ee20,transparent 26%)!important}
+.nav{background:#050b20d9!important;border-color:#5b7cff35!important;box-shadow:0 20px 70px #0008,0 0 30px #5b7cff12!important}
+.logo span,.footerLogo span{background:linear-gradient(135deg,#5b7cff,#22d3ee)!important;box-shadow:0 0 30px #5b7cff44!important}
+.primary{background:linear-gradient(135deg,#5b7cff,#22d3ee)!important;box-shadow:0 14px 40px #5b7cff35!important}
+.eyebrow,.featureGrid article span,.pricing article>span{color:#67e8f9!important}
+.hero h1{background:linear-gradient(100deg,#fff,#a8baff 45%,#67e8f9)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.cards article,.featureGrid article,.pricing article,.authCard,.tool,.result{background:linear-gradient(145deg,#0d1738d9,#070d22e8)!important;border-color:#5b7cff26!important}
+.cards article:hover,.featureGrid article:hover,.pricing article:hover,.tool:hover,.result:hover{border-color:#5b7cff66!important;box-shadow:0 30px 90px #0009,0 0 45px #5b7cff18!important}
+.workspace{background:radial-gradient(circle at 75% 10%,#22d3ee12,transparent 25%),transparent!important}
+footer.premiumFooter{background:linear-gradient(180deg,#07102b,#030615)!important}
